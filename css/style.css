@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+  
+   .imgzentriert 
+	{
+	   display: block; 
+	   width:100%;
+	   text-align: center;
+    }
+	.zebratext
+	{
+		display: block;
+		text-align:right;
+		font-family: 'Source Sans Pro';
+		color:white;
+		
+	}
+	.rot_und_dick
+	{
+		font-family: monospace;
+		font-size: 130%;
+		color: red;
+		font-weight: bolder;
+	}
+	html
+	{
+	   background-color:#1073B6;
+	   font-family: 'Source Sans Pro', sans-serif; 
+    }
+	body 
+	{
+	  background-color:#C2DCEB;
+	  width: 1000px;
+	  margin: 0 auto;
+	  padding: 8px;
+      font: normal 18px serif;
+      color: black; 
+    } 
+    nav a 
+	{
+		background-color:#1073B6;
+		font-size: 18pt;
+		color:white;
+    }
+	nav a:focus, nav a:hover, nav a:active 
+	{    
+		background-color:white;
+		font-size:18pt;
+		font-weight: bolder;
+		color:#1073B6;
+    } 
+	h1
+	{
+		margin-left:auto;
+		margin-right:auto;
+		font-size: 30pt;
+		color: #1073B6;
+		font-weight: bold;
+	}
+	tr
+	{	
+		background-color:white;
+
+	}
+	table
+	{
+		border:5px;
+	}
+	col
+	{
+		width:25%;
+	}
+	tr:nth-child(odd) 
+	{
+       background-color: #C2DCEB;
+	}
+	th
+	{
+		background-color:#1073B6;
+		color:green;
+		font-size: 18pt;
+		font-family:'Source Sans Pro',monospace;
+	}
